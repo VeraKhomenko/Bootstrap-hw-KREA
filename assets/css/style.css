@@ -1,0 +1,62 @@
+﻿* {
+  outline: none;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+}
+
+.container {
+   max-width: 1080px;
+
+}
+
+.header {
+  max-width: 1600px;
+  height: 680px;
+margin: 0 auto;
+  background: url("../img/header-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+
+}
+.footer {
+  max-width: 1600px;
+  height: 200px;
+margin: 0 auto;
+ background: url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  line-height: 0.5;
+ 
+}
+.hr {
+ align-items: center;
+ width: 5%;
+color: #000;
+}
+.button {
+  width: 290px;
+  height: 60px;
+margin: 0 auto;
+ background: url("../img/touch-bg.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+ 
+}
+.gallery {
+  grid-auto-flow: dense;
+}
+.position-absolute {
+  z-index: -1;
+  bottom: 0;
+  left: -20px;
+}
+.contact {
+  padding-top: 150px;
+  height: 600px;
+}
